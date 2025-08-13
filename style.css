@@ -1,0 +1,113 @@
+
+body{
+    background: #e4e4e6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    /* Efecto de cuadros negros pequeños */
+     background-image: url("data:image/svg+xml;utf8,<svg width='20' height='20' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='20' height='20' fill='none' stroke='rgba(0,0,0,0.08)' stroke-width='1'/></svg>");
+    background-repeat: repeat;
+}
+
+div.container_content {
+    box-sizing: border-box; /* para que el padding no afecte al ancho total */
+    display: flex; /* o grid */
+    flex-direction: column; /* para que los elementos se apilen verticalmente */
+    justify-content: center; /* centra verticalmente */
+    text-align: center;
+}
+.prog_web {
+    color: #338dc9;
+    font-family: 'segoe UI', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.prog_name{
+    margin-bottom: 0;
+}
+.span_web_full {
+    color: #0004f1;
+    font-family: 'segoe UI', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.profile-img {
+    width: 150px;          /* Tamaño de la imagen */
+    height: 150px;         /* Altura de la imagen */
+    object-fit: cover;     /* Recorta la imagen si es necesario */
+    border-radius: 50%;    /* Hace la imagen circular */
+    margin-bottom: 20px;   /* Espacio debajo de la imagen */
+    display: block;        /* Permite centrar con margin */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.container_present{
+    box-sizing: border-box; /* para que el padding no afecte al ancho total */
+    display: flex; /* o grid */
+    flex-direction: column; /* para que los elementos se apilen verticalmente */
+    justify-content: center; /* centra verticalmente */
+    text-align: center;
+}
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+.footer-content {
+    background-color: #000000; /* Color de fondo del footer */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Centra el texto */
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    color: #555; /* Color del texto */
+}
+nav ul{
+    display: flex;
+    gap: 33rem; /* Espacio entre los elementos */
+    list-style: none;
+    padding: 10px;
+    margin: 0;  
+    background-color: #338dc9; /* Color de fondo del menú */
+
+    
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 16px;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin: 12px 0 8px 0;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.card_projects{
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cartas se ajusten en varias filas */
+    justify-content: center; /* Centra las cartas horizontalmente */
+    gap: 20px; /* Espacio entre las cartas */
+    padding: 20px; /* Espacio interno alrededor de las cartas */
+
+}
